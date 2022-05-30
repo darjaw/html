@@ -1,4 +1,36 @@
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text {
-    color: green;
-}
+@import url('https://fonts.googleapis.com/css2?family=Hind&family=Signika+Negative:wght@700&display=swap');
+
+    body {
+        background-color: bisque;
+    }
+
+    * {
+        font-family: 'Hind', sans-serif;
+        font-weight: bold;
+    }
+
+    .bg-muse-action {
+        background-color: #FD4C60;
+    }
+
+    #muse-font {
+
+        font-family: 'Signika Negative', sans-serif;
+        font-size: 25px;
+        margin-left: .5rem;
+    }
+
+    #muse-home {
+        margin-left: 3rem;
+
+    }
+
+    #search {
+        margin-right: 3rem;
+    }
+
+    /* .container-fluid {
+        padding-left: 0rem;
+        padding-right: 0rem;
+        overflow: hidden;
+    } */
