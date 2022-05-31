@@ -25,10 +25,17 @@ navbar-nav ms-auto text-center body {
 
 #search {
   margin-right: 4rem;
-  margin-left: 8rem;
+  margin-left: 3rem;
 }
 li {
-  margin-right: 2.5rem;
+  margin-right: 1.5rem;
+}
+#profile-pic {
+  height: 300px;
+  width: 300px;
+
+  margin-top: 3rem;
+  margin-left: auto;
 }
 
 /* .container-fluid {
