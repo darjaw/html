@@ -1,35 +1,37 @@
-@import url('https://fonts.googleapis.com/css2?family=Hind&family=Signika+Negative:wght@700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Hind&family=Signika+Negative:wght@700&display=swap");
+navbar-nav ms-auto text-center body {
+  background-color: bisque;
+}
 
-    body {
-        background-color: bisque;
-    }
+* {
+  font-family: "Hind", sans-serif;
+  font-weight: bold;
+  font-size: 22px;
+}
 
-    * {
-        font-family: 'Hind', sans-serif;
-        font-weight: bold;
-    }
+.bg-muse-action {
+  background-color: #fd4c60;
+}
 
-    .bg-muse-action {
-        background-color: #FD4C60;
-    }
+#muse-font {
+  font-family: "Signika Negative", sans-serif;
+  font-size: 30px;
+  margin-left: 0.5rem;
+}
 
-    #muse-font {
+#muse-home {
+  margin-left: 3rem;
+}
 
-        font-family: 'Signika Negative', sans-serif;
-        font-size: 25px;
-        margin-left: .5rem;
-    }
+#search {
+  margin-right: 4rem;
+  margin-left: 8rem;
+}
+li {
+  margin-right: 2.5rem;
+}
 
-    #muse-home {
-        margin-left: 3rem;
-
-    }
-
-    #search {
-        margin-right: 3rem;
-    }
-
-    /* .container-fluid {
+/* .container-fluid {
         padding-left: 0rem;
         padding-right: 0rem;
         overflow: hidden;
