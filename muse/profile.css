@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Hind&family=Signika+Negative:wght@700&display=swap");
-navbar-nav ms-auto text-center body {
+
+body {
   background-color: bisque;
 }
 
@@ -31,15 +32,20 @@ li {
   margin-right: 1.5rem;
 }
 #profile-pic {
-  height: 300px;
-  width: 300px;
+  height: 250px;
+  width: 250px;
 
   margin-top: 3rem;
   margin-left: auto;
 }
 
-/* .container-fluid {
-        padding-left: 0rem;
-        padding-right: 0rem;
-        overflow: hidden;
-    } */
+#fav-artists {
+  --bs-table-bg: pink;
+  --bs-table-accent-bg: #f0ad4e;
+
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: black;
+  vertical-align: middle;
+  border-color: #fd4c60;
+}

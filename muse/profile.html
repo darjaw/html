@@ -12,7 +12,7 @@
 </head>
 
 
-<body style="background-color: bisque">
+<body style="background-color: rgb(255, 179, 191);">
 
     <div class="container-fluid p-0">
         <!-- navbar code -->
@@ -52,14 +52,19 @@
         </nav>
 
 
-        <div class="row text-center mt-4 ">
+        <div class="row text-center mt-2 ">
             <div class="col-lg-6 align-self-lg-center">
                 <img class="rounded-circle border border-5 border-warning" alt="profile-pic" id="profile-pic"
                     src="resources/hoodie-square.png" data-holder-rendered="true">
-                <h2 class="my-2 h3 bo fw-bolder">uko</h2>
+                <h4 class="my-2 bo fw-bolder">uko</h4>
+
+
+
+
             </div>
-            <div class="col-lg-6 align-self-lg-center">
+            <div class="col-lg-6 align-self-lg-center embed-responsive-item  ">
                 <h5 class="fw-bolder"> featured video</h4>
+
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/hAQVS_l9k_k"
                         title="YouTube video player" frameborder="0"
                         allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -67,10 +72,66 @@
             </div>
 
         </div>
+        <!-- <div class="row text-center mt-2">
+            <div class="col-lg-5  ">
+                <h2></h2> about the artist:</h2>
+                <p id="about-text">
+                    Lorem ipsum dolor sit amet
+                    consectetur adipisicing elit.
+                    Voluptatibus architecto,
+                    voluptates accusantium reprehenderit
+                    animi excepturi tempore obcaecati illo,
+                    veniam totam, corporis maxime distinctio
+                    quaerat exercitationem ab?
+                    Minima corrupti qui fugiat.
 
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-            crossorigin="anonymous"></script>
+                </p>
+            </div> -->
+
+        <div class="col-lg-12 text-center mt-4">
+            <h3> favorite artists</h3>
+            <table class="table table-responsive-sm" id="fav-artists">
+                <thead class="thead-dark">
+                    <tr>
+                        <th scope="col">#</th>
+                        <th scope="col">Artist Name</th>
+                        <th scope="col">Twitter Handle</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th scope="row">1</th>
+                        <td>JPEGMAFIA</td>
+
+                        <td>
+                            <a href="https://twitter.com/jpegmafia">@JPEGMAFIA</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">2</th>
+                        <td>454</td>
+
+                        <td>
+                            <a href="https://twitter.com/SQVXLLS">@SQVXLLS</a>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th scope="row">3</th>
+                        <td>ZelooperZ</td>
+
+                        <td>
+                            <a href="https://twitter.com/ZelooperZ">@ZelooperZ</a>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"></script>
 
 </body>
 
