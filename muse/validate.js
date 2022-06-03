@@ -9,8 +9,10 @@ form.addEventListener('submit', (error) => {
         messages.push('Password must be at least 6 characters');
 
         if (messages.length > 0){
-    alert("Password must be at least 6 characters");
+    messages.forEach(message => {
+        alert(message);
+    });
     error.preventDefault();
         }
-
+        
 })
