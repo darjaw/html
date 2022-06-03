@@ -41,7 +41,7 @@ li {
 
 #fav-artists {
   --bs-table-bg: pink;
-  --bs-table-accent-bg: #f0ad4e;
+  --bs-table-accent-bg: #ffc107;
 
   margin-top: 1rem;
   margin-bottom: 1rem;
